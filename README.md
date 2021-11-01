@@ -2,4 +2,4 @@
 
 EN:Creating a course application form with HTML. 
 DE:Kursbewerbungsformular mit HTML erstellen 
-TR:HTML ile kurs başvuru formu oluşturma
+TR:HTML aracılığla bir kurs başvuru formu oluşturma

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Applications for FullStack Development Course</h1>
+    <p><b>Note:</b>Form is a to be completed at least 21 day prior to date</p>
+    <br>
+    <form action="mailto:ahmetefkere@gmail.com" method="post">
+        <fieldset>
+            <legend><b><i>Personal Details</i> </b></legend>
+            <div>
+                <label for="Name">Name:</label>
+                <input type="text" alt="Name" id="Name" placeholder="Enter Name Here" required>
+            </div>  
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" id="Email" placeholder="Enter Email Here" required>
+            </div>
+            
+            <br>
+            <div>
+                <label for="Phone Number">Phone Number:</label>
+                <input type="number" name="Phone Number" id="Phone Number" placeholder="(555)555-5555" required> 
+            </div>
+            <br>
+            <div>
+            <p>Gender</p>
+               <input type="radio" name="Gender" id="Male" checked>
+               <label for="Male">Male</label>
+               <br>
+               <input type="radio" name="Gender" id="Female" >
+               <label for="Female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="Birthday">Date of Birth:</label>
+                <input type="date" name="Birthday" id="Birthday">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="degree">Education Level Completed:</label>
+            <select name="degree" id="degree">
+                <option value="Uni">University</option>
+                <option value="Col">Collage</option>
+                <option value="Hg">High-School</option>
+                <option value="El">Elementry</option>
+                <option value="No" selected>None</option>
+                </select>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <p>Place check if you know any of below</p>
+            <input type="checkbox" name="HTML" value="HTML" checked> HTML <br>
+            <input type="checkbox" name="CSS" value="CSS"> CSS <br>
+            <input type="checkbox" name="JS" value="JS"> JS <br>
+            <input type="checkbox" name="Reacht" value="Reacht"> Reacht <br>
+            <input type="checkbox" name="NodeJS" value="NodeJS"> NodeJS <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b><i>Additional Information</i> </b></legend>
+            <p>In 50 words or more explain why you want to attend this course</p>
+            <br>
+            <textarea name="" id="" cols="50" rows="5" placeholder="Enter Text Here"></textarea>
+            <br>
+            <p>Plase add any file as .pdf format </p>
+            <input type="file" name="file" accept=".pdf">
+        </fieldset>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+</body>
+</html>
